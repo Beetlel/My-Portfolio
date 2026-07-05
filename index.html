@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ma Hussein Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="portfolio">
+      <div class="background">
+        <!-- Aurora Layer -->
+        <div class="aurora"></div>
+        <!-- Canvas -->
+        <canvas id="bgCanvas"></canvas>
+        <!-- Mouse Glow -->
+        <div class="mouse-light"></div>
+      </div>
+      <div class="container">
+        <header class="header">
+          <nav class="navbar">
+            <a href="#home" class="logo">
+              <span class="logo-highlight">MHB</span>.dev
+            </a>
+            <ul class="nav-links">
+              <li><a href="#home" class="active">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#journey">My Journey</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="header-right">
+              <div class="availability">
+                <span class="status-dot"></span>
+                Available for Work
+              </div>
+              <button class="menu-btn" id="menu-btn" aria-label="Open Menu">
+                ☰
+              </button>
+            </div>
+          </nav>
+        </header>
+        <div class="content">
+          <section id="home" class="hero">
+            <div class="hero-left">
+              <div class="hero-badge">
+                <span class="hero-badge-dot"></span>
+                Available for Opportunities
+              </div>
+              <p class="hero-intro">Hello, I'm</p>
+              <h1 class="hero-title">
+                Muhri-Abiodun
+                <span>Hussein Bolade</span>
+              </h1>
+              <h2 class="hero-role">
+                <span id="typing-text"> Full Stack Developer </span>
+              </h2>
+              <p class="hero-description">
+                I'm a dedicated Full Stack Developer with over 3 years of
+                experience building modern, responsive websites and scalable web
+                applications. I enjoy transforming ideas into fast, intuitive,
+                and visually engaging digital products that solve real-world
+                problems.
+              </p>
+              <div class="hero-buttons">
+                <a href="#projects" class="primary-btn"> View Projects </a>
+                <a href="assets/resume.pdf" class="secondary-btn">
+                  Download CV
+                </a>
+              </div>
+            </div>
+            <div class="hero-right">
+              <div class="developer-card">
+                <div class="developer-top">
+                  <div class="developer-avatar">
+                    <img class="pfp" src="pfp.jpg" alt="pfp image" />
+                  </div>
+                  <div>
+                    <h3>Muhri-Abiodun</h3>
+                    <p>Full Stack Developer</p>
+                  </div>
+                </div>
+                <div class="developer-stats">
+                  <div>
+                    <h2>3+</h2>
+                    <small>Years</small>
+                  </div>
+                  <div>
+                    <h2>20+</h2>
+                    <small>Projects</small>
+                  </div>
+                  <div>
+                    <h2>18+</h2>
+                    <small>Tech Stack</small>
+                  </div>
+                </div>
+                <div class="developer-stack">
+                  <span class="stack">React</span>
+                  <span class="stack">Express</span>
+                  <span class="stack">Python</span>
+                  <span class="stack">AWS</span>
+                  <span class="stack">Supabase</span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="about" class="about">
+            <div class="section-header">
+              <span class="section-tag"> About Me </span>
+              <h2>
+                Building Digital Experiences
+                <span> That Make an Impact. </span>
+              </h2>
+              <p>
+                Passionate about creating modern, scalable, and user-focused
+                applications that combine elegant design with reliable
+                engineering.
+              </p>
+            </div>
+            <div class="about-grid">
+              <div class="about-card">
+                <!-- Animated Border -->
+                <div class="card-border"></div>
+                <!-- Mouse Glow -->
+                <div class="card-glow"></div>
+                <div class="card-content">
+                  <div class="profile-status">
+                    <span class="online-dot"></span>
+                    Available for Opportunities
+                  </div>
+                  <div class="profile-avatar">
+                    <div class="avatar-ring ring-one"></div>
+                    <div class="avatar-ring ring-two"></div>
+                    <div class="avatar-ring ring-three"></div>
+                    <div class="avatar-core">
+                      <span>MHB</span>
+                    </div>
+                  </div>
+                  <div class="profile-info">
+                    <h3>Muhri-Abiodun Hussein Bolade</h3>
+                    <p>Full Stack Developer</p>
+                  </div>
+                  <div class="developer-meta">
+                    <div>📍 Nigeria</div>
+                    <div>⚡ 3+ Years Experience</div>
+                    <div>🚀 Open to Full-Time Opportunities</div>
+                  </div>
+                  <div class="developer-stats">
+                    <div>
+                      <h2>20+</h2>
+                      <small>Projects</small>
+                    </div>
+                    <div>
+                      <h2>18+</h2>
+                      <small>Tech Stack</small>
+                    </div>
+                    <div>
+                      <h2>24h</h2>
+                      <small>Response</small>
+                    </div>
+                  </div>
+                  <div class="tech-pills">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                    <span>Python</span>
+                    <span>AWS</span>
+                    <span>Firebase</span>
+                    <span>Supabase</span>
+                    <span>Express</span>
+                  </div>
+                  <div class="profile-buttons">
+                    <a href="#">GitHub</a>
+                    <a href="#">LinkedIn</a>
+                  </div>
+                </div>
+              </div>
+              <div class="about-content">
+                <h3>
+                  Creating Modern Digital Products From Idea to Deployment.
+                </h3>
+                <p>
+                  I'm Muhri-Abiodun Hussein Bolade, a Full Stack Developer with
+                  more than three years of experience building responsive
+                  websites, modern web applications, and scalable backend
+                  systems.
+                </p>
+                <p>
+                  My passion lies in transforming ideas into polished digital
+                  experiences through clean code, intuitive interfaces, and
+                  efficient architectures. I enjoy solving challenging problems,
+                  learning new technologies, and continuously improving my
+                  craft.
+                </p>
+                <div class="about-highlights">
+                  <div class="highlight">✓ Responsive Web Design</div>
+                  <div class="highlight">✓ REST API Development</div>
+                  <div class="highlight">✓ Frontend Engineering</div>
+                  <div class="highlight">✓ Backend Development</div>
+                  <div class="highlight">✓ Database Architecture</div>
+                  <div class="highlight">✓ Cloud Deployment</div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="journey" class="journey">
+            <div class="section-header">
+              <span class="section-tag"> My Journey </span>
+              <h2>
+                Every Step Has Built
+                <span>The Developer I Am Today.</span>
+              </h2>
+              <p>
+                Every project, challenge, and late-night debugging session has
+                contributed to my growth as a Full Stack Developer. Here's a
+                snapshot of my journey.
+              </p>
+            </div>
+            <div class="timeline">
+              <div class="timeline-line"></div>
+              <div class="timeline-progress"></div>
+              <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <span class="timeline-year"> 2023 </span>
+                  <h3>The Beginning</h3>
+                  <p>
+                    Started learning web development by exploring HTML, CSS and
+                    JavaScript fundamentals while building responsive websites.
+                  </p>
+                  <div class="timeline-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="timeline-learned">
+                    <h4>What I Learned</h4>
+                    <p>
+                      Responsive layouts, clean code, accessibility and UI
+                      fundamentals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <span class="timeline-year"> 2024 </span>
+                  <h3>Frontend Development</h3>
+                  <p>
+                    Focused on React, Tailwind CSS, Bootstrap and building
+                    interactive, responsive user interfaces.
+                  </p>
+                  <div class="timeline-tech">
+                    <span>React</span>
+                    <span>Tailwind</span>
+                    <span>Bootstrap</span>
+                  </div>
+                  <div class="timeline-learned">
+                    <h4>What I Learned</h4>
+                    <p>
+                      Component architecture, state management, animations and
+                      UI design.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <span class="timeline-year"> 2025 </span>
+                  <h3>Full Stack Development</h3>
+                  <p>
+                    Expanded into backend engineering, REST APIs,
+                    authentication, databases and cloud deployment.
+                  </p>
+                  <div class="timeline-tech">
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>MongoDB</span>
+                    <span>Firebase</span>
+                  </div>
+                  <div class="timeline-learned">
+                    <h4>What I Learned</h4>
+                    <p>
+                      API architecture, authentication, scalable applications
+                      and deployment.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <span class="timeline-year"> 2026 </span>
+                  <h3>Professional Growth</h3>
+                  <p>
+                    Building ambitious projects, refining my skills, and
+                    actively seeking opportunities to contribute to meaningful
+                    software.
+                  </p>
+                  <div class="timeline-tech">
+                    <span>React Native</span>
+                    <span>AWS</span>
+                    <span>Supabase</span>
+                    <span>AI</span>
+                  </div>
+                  <div class="timeline-learned">
+                    <h4>Current Focus</h4>
+                    <p>
+                      Building production-ready software, mastering advanced
+                      frontend techniques, and preparing for the professional
+                      world.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="skills" class="skills">
+            <div class="section-header">
+              <span class="section-tag"> Engineering Toolkit </span>
+              <h2>
+                Technologies That Power
+                <span>Everything I Build.</span>
+              </h2>
+              <p>
+                Every technology in my toolkit serves a purpose. From crafting
+                beautiful interfaces to designing scalable backend systems,
+                these are the tools I rely on to build modern digital products.
+              </p>
+            </div>
+            <div class="tech-core">
+              <div class="core-ring ring-1"></div>
+              <div class="core-ring ring-2"></div>
+              <div class="core-ring ring-3"></div>
+              <div class="core-center">
+                <h2>18+</h2>
+                <span>Technologies</span>
+              </div>
+              <span class="orbit tech1">React</span>
+              <span class="orbit tech2">Node.js</span>
+              <span class="orbit tech3">MongoDB</span>
+              <span class="orbit tech4">AWS</span>
+              <span class="orbit tech5">Python</span>
+              <span class="orbit tech6">Firebase</span>
+            </div>
+            <div class="toolkit-grid">
+              <article class="tool-card frontend">
+                <div class="tool-glow"></div>
+                <div class="tool-header">
+                  <div>
+                    <h3>Frontend Engineering</h3>
+                    <p>Interactive user experiences</p>
+                  </div>
+                  <span class="status ready"> READY </span>
+                </div>
+                <div class="tool-category">
+                  <h4>Core Technologies</h4>
+                  <div class="tool-pills">
+                    <span class="core">HTML5</span>
+                    <span class="core">CSS3</span>
+                    <span class="core">JavaScript</span>
+                    <span class="core">React</span>
+                    <span>Tailwind CSS</span>
+                    <span>Bootstrap</span>
+                    <span>Heroicons</span>
+                  </div>
+                </div>
+              </article>
+              <article class="tool-card backend">
+                <div class="tool-glow"></div>
+                <div class="tool-header">
+                  <div>
+                    <h3>Backend Engineering</h3>
+                    <p>APIs & Server Logic</p>
+                  </div>
+                  <span class="status online"> ONLINE </span>
+                </div>
+                <div class="tool-category">
+                  <h4>Core Technologies</h4>
+                  <div class="tool-pills">
+                    <span class="advanced">Node.js</span>
+                    <span class="advanced">Express</span>
+                    <span>REST APIs</span>
+                    <span>Python</span>
+                  </div>
+                </div>
+              </article>
+              <article class="tool-card database">
+                <div class="tool-glow"></div>
+                <div class="tool-header">
+                  <div>
+                    <h3>Databases</h3>
+                    <p>Structured Data</p>
+                  </div>
+                  <span class="status active"> ACTIVE </span>
+                </div>
+                <div class="tool-category">
+                  <h4>Database Stack</h4>
+                  <div class="tool-pills">
+                    <span class="advanced">MongoDB</span>
+                    <span>Firebase</span>
+                    <span>Supabase</span>
+                  </div>
+                </div>
+              </article>
+              <article class="tool-card cloud">
+                <div class="tool-glow"></div>
+                <div class="tool-header">
+                  <div>
+                    <h3>Cloud & Deployment</h3>
+                    <p>Shipping Production Apps</p>
+                  </div>
+                  <span class="status deployed"> DEPLOYED </span>
+                </div>
+                <div class="tool-category">
+                  <h4>Platforms</h4>
+                  <div class="tool-pills">
+                    <span>AWS</span>
+                    <span>Cloudinary</span>
+                    <span>Firebase Hosting</span>
+                    <span>Vercel</span>
+                  </div>
+                </div>
+              </article>
+              <article class="tool-card tools">
+                <div class="tool-glow"></div>
+                <div class="tool-header">
+                  <div>
+                    <h3>Developer Toolkit</h3>
+                    <p>Productivity & Workflow</p>
+                  </div>
+                  <span class="status synced"> SYNCED </span>
+                </div>
+                <div class="tool-category">
+                  <h4>Development Tools</h4>
+                  <div class="tool-pills">
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>React Query</span>
+                    <span>React Native</span>
+                    <span>NativeWind</span>
+                    <span>VS Code</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="skills-footer">
+              <h3>Technology evolves every day.</h3>
+              <p>
+                The greatest skill isn't knowing every framework — it's having
+                the curiosity and discipline to learn the next one.
+              </p>
+            </div>
+          </section>
+          <section id="projects" class="projects">
+            <div class="section-header">
+              <span class="section-tag"> Featured Work </span>
+              <h2>
+                Turning Ideas Into
+                <span>Real Digital Products.</span>
+              </h2>
+              <p>
+                Every project represents a challenge solved, an idea explored,
+                and a step forward in my journey as a Full Stack Developer.
+              </p>
+            </div>
+            <article class="project-card">
+              <div class="project-image">
+                <div class="image-frame">
+                  <img src="inkyLogo.jpg" alt="Inky Animation Studio" />
+                </div>
+              </div>
+              <div class="project-content">
+                <span class="project-number"> 01 </span>
+                <h3>Inky Animation Studio</h3>
+                <p class="project-intro">
+                  A modern browser-based animation platform inspired by
+                  professional animation software, built to provide artists with
+                  an intuitive and responsive creative workflow.
+                </p>
+                <div class="project-section">
+                  <h4>The Challenge</h4>
+                  <p>
+                    Designing a web application capable of handling drawing,
+                    timelines, layers, and animation tools while maintaining
+                    excellent responsiveness.
+                  </p>
+                </div>
+                <div class="project-section">
+                  <h4>The Solution</h4>
+                  <p>
+                    Developed a scalable React application with reusable
+                    components, modern UI, optimized rendering, and a powerful
+                    drawing experience.
+                  </p>
+                </div>
+                <div class="project-section">
+                  <h4>Highlights</h4>
+                  <ul>
+                    <li>Responsive Canvas</li>
+                    <li>Timeline System</li>
+                    <li>Layer Management</li>
+                    <li>Professional Drawing Tools</li>
+                  </ul>
+                </div>
+                <div class="project-tech">
+                  <span>React</span>
+                  <span>Canvas API</span>
+                  <span>Tailwind CSS</span>
+                  <span>JavaScript</span>
+                  <span>Node.js</span>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://beetlel.github.io/Inky-Web-Animation-Application/"
+                  >
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/Beetlel/Inky-Web-Animation-Application"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card reverse">
+              <div class="project-image">
+                <div class="image-frame">
+                  <img src="images/ai-preview.png" alt="AI Assistant" />
+                </div>
+              </div>
+              <div class="project-content">
+                <span class="project-number"> 02 </span>
+                <h3>Offline AI Assistant</h3>
+                <p class="project-intro">
+                  An ambitious AI concept focused on combining offline
+                  capabilities with online intelligence for fast, real-time
+                  interaction.
+                </p>
+                <div class="project-section">
+                  <h4>The Goal</h4>
+                  <p>
+                    Build an intelligent assistant capable of operating without
+                    internet access while seamlessly connecting to online
+                    services whenever available.
+                  </p>
+                </div>
+                <div class="project-section">
+                  <h4>Current Focus</h4>
+                  <p>
+                    Researching AI architectures, efficient inference, hardware,
+                    and modern C++ development.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span>C++</span>
+                  <span>Python</span>
+                  <span>AI</span>
+                  <span>ML</span>
+                </div>
+                <div class="project-links">
+                  <a href="#"> Research </a>
+                  <a href="#"> GitHub </a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-image">
+                <div class="image-frame">
+                  <img src="images/beetletech-preview.png" alt="BeetleTech" />
+                </div>
+              </div>
+              <div class="project-content">
+                <span class="project-number"> 03 </span>
+                <h3>BeetleTech Vision</h3>
+                <p class="project-intro">
+                  A long-term vision of creating software products that solve
+                  real-world business problems through modern technology.
+                </p>
+                <div class="project-section">
+                  <h4>Vision</h4>
+                  <p>
+                    Build a technology company focused on developing creative,
+                    scalable software and intelligent digital solutions.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>AWS</span>
+                  <span>Cloud</span>
+                </div>
+                <div class="project-links">
+                  <a href="#"> Learn More </a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card reverse">
+              <div class="project-image">
+                <div class="image-frame">
+                  <img src="images/business-suite.png" alt="Business Suite" />
+                </div>
+              </div>
+              <div class="project-content">
+                <span class="project-number"> 04 </span>
+                <h3>Business Management Suite</h3>
+                <p class="project-intro">
+                  An integrated business platform combining CRM, inventory
+                  management, accounting, scheduling, and project management.
+                </p>
+                <div class="project-section">
+                  <h4>Modules</h4>
+                  <ul>
+                    <li>CRM</li>
+                    <li>Inventory</li>
+                    <li>Accounting</li>
+                    <li>Scheduling</li>
+                    <li>Project Management</li>
+                  </ul>
+                </div>
+                <div class="project-tech">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>MongoDB</span>
+                  <span>Express</span>
+                </div>
+                <div class="project-links">
+                  <a href="#"> In Progress </a>
+                </div>
+              </div>
+            </article>
+          </section>
+          <section id="contact" class="contact">
+            <div class="section-header">
+              <span class="section-tag"> Contact </span>
+              <h2>
+                Let's Build Something
+                <span>Amazing Together.</span>
+              </h2>
+              <p>
+                Whether you're looking for a developer, have an exciting project
+                in mind, or simply want to connect, my inbox is always open.
+              </p>
+            </div>
+            <div class="contact-wrapper">
+              <div class="contact-form">
+                <form>
+                  <div class="input-group">
+                    <input type="text" placeholder="Your Name" required />
+                  </div>
+                  <div class="input-group">
+                    <input type="email" placeholder="Email Address" required />
+                  </div>
+                  <div class="input-group">
+                    <input type="text" placeholder="Subject" />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      rows="7"
+                      placeholder="Tell me about your project..."
+                    ></textarea>
+                  </div>
+                  <button type="submit">Send Message →</button>
+                </form>
+              </div>
+              <div class="contact-info">
+                <div class="info-card">
+                  <h3>Email</h3>
+                  <p>your@email.com</p>
+                </div>
+                <div class="info-card">
+                  <h3>Location</h3>
+                  <p>Nigeria</p>
+                </div>
+                <div class="info-card">
+                  <h3>Availability</h3>
+                  <p>Open to Work</p>
+                </div>
+                <div class="info-card">
+                  <h3>Response Time</h3>
+                  <p>Within 24 Hours</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer>
+            <div class="footer-content">
+              <h2>Muhri-Abiodun Hussein Bolade</h2>
+              <p>
+                Building modern digital experiences with creativity,
+                performance, and purpose.
+              </p>
+              <div class="footer-social">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+                <a href="#">Email</a>
+              </div>
+              <div class="footer-line"></div>
+              <small>
+                © 2026 Muhri-Abiodun Hussein Bolade. Designed & Developed with
+                ❤️.
+              </small>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="responsive.js"></script>
+  </body>
+</html>
