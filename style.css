@@ -400,6 +400,7 @@ section {
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  object-fit: cover;
 }
 .developer-top p {
   color: #9aa9c2;
